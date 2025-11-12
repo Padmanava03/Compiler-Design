@@ -27,7 +27,6 @@ void lex_analyze_file(istream& input_stream, map<string, int>& counts, const vec
     char ch;
 
     while (input_stream.get(ch)) {
-        // 1. Skip whitespace
         if (isspace(ch)) {
             continue;
         }
